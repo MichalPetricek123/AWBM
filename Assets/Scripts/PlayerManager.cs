@@ -12,7 +12,7 @@ public class PlayerManager : MonoBehaviour
     {
         if (health < 0) { dead(); }
     }
-    void dead()
+    public void dead()
     {
         dedScreen.SetActive(true);
         deadMan = true;
