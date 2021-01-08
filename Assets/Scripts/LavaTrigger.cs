@@ -6,6 +6,6 @@ public class LavaTrigger : MonoBehaviour
 {
     private void OnTriggerEnter2D()
     {
-        PlayerManager.Instance.dead();
+        //PlayerManager.Instance.dead();
     }
 }
