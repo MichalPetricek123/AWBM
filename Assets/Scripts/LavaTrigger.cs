@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class LavaTrigger : MonoBehaviour
 {
-    private void Update()
+    private void OnTriggerEnter2D()
     {
-        //PlayerManager.dead();
+        PlayerManager.Instance.dead();
     }
 }
